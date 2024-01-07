@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+
+@font-face {
+    font-family: Blackout;
+    src: url('./../../public/fonts/PixelifySans-VariableFont_wght.ttf')
+    format('truetype');
+}
+
+@font-face {
+    font-family: rollFont;
+    src: url('./../../public/fonts/JosefinSans-MediumItalic.ttf')
+    format('truetype');
+}
