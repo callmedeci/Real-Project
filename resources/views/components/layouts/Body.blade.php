@@ -8,10 +8,10 @@
     @vite('resources/css/app.css')
 </head>
 
-<body id="body" class="h-full relative  flex scroll-smooth z-0">
+<body id="body" class="h-full relative flex scroll-smooth z-0">
 
-<div class="w-full h-full flex justify-center bg-zinc-50 dark:bg-black relative">
-    <div class="flex flex-col w-full h-full max-w-4xl lg:max-w-6xl xl:max-w-7xl bg-white dark:bg-zinc-900 ">
+<div class="w-full h-full flex justify-center bg-zinc-50 dark:bg-zinc-950 relative">
+    <div class="flex flex-col w-full h-full max-w-4xl lg:max-w-6xl xl:max-w-7xl bg-white dark:bg-zinc-900">
 
         <div class="max-[280px]:px-3 px-9 md:px-32">
             <div class="">

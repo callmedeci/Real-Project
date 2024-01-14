@@ -1,0 +1,10 @@
+{
+    "platform": "laravel",
+    "app" : "thisResume",
+    "laravel" : {
+        "phpVersion" : "8.2"
+    }
+
+}
+
+

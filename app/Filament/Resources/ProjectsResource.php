@@ -22,7 +22,7 @@ use PhpParser\Lexer\TokenEmulator\FlexibleDocStringEmulator;
 
 Filament::serving(function () {
     Filament::registerNavigationItems([
-        NavigationItem::make('Spotlight')
+        NavigationItem::make('About me')
             ->url(route('home'), shouldOpenInNewTab: true)
             ->icon('heroicon-m-folder-open')
             ->group('Projects')
@@ -40,6 +40,15 @@ Filament::serving(function () {
     ]);
 });
 
+Filament::serving(function () {
+    Filament::registerNavigationItems([
+        NavigationItem::make('Roocket')
+            ->url(route('roocket'), shouldOpenInNewTab: true)
+            ->icon('heroicon-o-credit-card')
+            ->group('Projects')
+            ->sort(3),
+    ]);
+});
 class ProjectsResource extends Resource
 {
 

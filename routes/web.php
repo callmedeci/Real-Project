@@ -5,6 +5,7 @@ use App\Http\Controllers\ArticlesContrller;
 use App\Http\Controllers\GuessGameController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\PlayWithJsIndexController;
+use App\Http\Controllers\PricingController;
 use App\Http\Controllers\ProjectContrller;
 use App\Http\Controllers\RollDiceController;
 use App\Http\Controllers\ShowCardsController;
@@ -57,6 +58,10 @@ Route::get('/index-js/roll-dice-game', [RollDiceController::class, 'rollDiceView
 
 Route::get('/index-js/showCards', [ShowCardsController::class, 'showCardsView'])
     ->name('showCards')
+    ->middleware('adminCheck');
+
+Route::get('/pricing-page/roocket', [PricingController::class, 'viewPricingPage'])
+    ->name('roocket')
     ->middleware('adminCheck');
 
 
